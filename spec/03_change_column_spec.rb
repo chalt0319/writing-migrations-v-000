@@ -10,7 +10,7 @@ describe 'student' do
     ActiveRecord::Base.connection.execute(sql)
 
     CreateStudents.new.change
-    AddGradeAndBirthdateToStudents.new.change
+    AddColumn.new.change
     ChangeDatatypeForBirthdate.new.change
     Student.reset_column_information
   end
