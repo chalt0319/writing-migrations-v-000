@@ -1,9 +1,4 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
-  def up
-  end
-
-  def down
-  end
 
   def change
     if !data_source_exists?(:students)
