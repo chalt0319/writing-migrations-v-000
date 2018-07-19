@@ -1,6 +1,5 @@
 require_relative 'spec_helper'
 require_relative '../db/migrate/01_create_students'
-# require_relative '../db/migrate/02_add_grade_and_birthdate_to_students'
 require_relative '../db/migrate/02_try_again'
 require_relative '../db/migrate/03_add_column'
 require_relative '../db/migrate/04_change_datatype_for_birthdate'
