@@ -1,4 +1,4 @@
-class CreateStudents < ActiveRecord::Migration[5.1]
+class TryAgain < ActiveRecord::Migration[5.1]
 
   def change
     if !data_source_exists?(:students)
