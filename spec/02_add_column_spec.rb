@@ -9,7 +9,7 @@ describe 'student' do
     sql = "DROP TABLE IF EXISTS students"
     ActiveRecord::Base.connection.execute(sql)
     CreateStudents.new.change
-    AddGradeAndBirthdateToStudents.new.change
+    AddColumn.new.change
     Student.reset_column_information
   end
 
